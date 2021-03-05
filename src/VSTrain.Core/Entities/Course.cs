@@ -1,8 +1,9 @@
-namespace VSTrain.Core
+using VSTrain.Core.Common;
+
+namespace VSTrain.Core.Entities
 {
-    public class Course
+    public class Course: Base
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+       public string Name { get; set; }
     }
 }
