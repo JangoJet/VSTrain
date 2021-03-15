@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{39A18577-392
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTrain.Core", "src\VSTrain.Core\VSTrain.Core.csproj", "{F95D7BBD-8ABA-4955-896B-53936D1A515A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VSTrain.Infrastructure", "VSTrain.Infrastructure", "{74D58FDF-7476-47F4-9C7A-E70F21475A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTrain.Persistence", "src\VSTrain.Infrastructure\VSTrain.Persistence\VSTrain.Persistence.csproj", "{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +36,22 @@ Global
 		{F95D7BBD-8ABA-4955-896B-53936D1A515A}.Release|x64.Build.0 = Release|Any CPU
 		{F95D7BBD-8ABA-4955-896B-53936D1A515A}.Release|x86.ActiveCfg = Release|Any CPU
 		{F95D7BBD-8ABA-4955-896B-53936D1A515A}.Release|x86.Build.0 = Release|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Debug|x64.Build.0 = Debug|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Debug|x86.Build.0 = Debug|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Release|x64.ActiveCfg = Release|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Release|x64.Build.0 = Release|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Release|x86.ActiveCfg = Release|Any CPU
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F95D7BBD-8ABA-4955-896B-53936D1A515A} = {39A18577-392A-48BE-A891-C834A9DFD065}
+		{74D58FDF-7476-47F4-9C7A-E70F21475A9A} = {39A18577-392A-48BE-A891-C834A9DFD065}
+		{DAC5F365-B698-4958-B3AE-ACAA29FCE5D7} = {74D58FDF-7476-47F4-9C7A-E70F21475A9A}
 	EndGlobalSection
 EndGlobal
